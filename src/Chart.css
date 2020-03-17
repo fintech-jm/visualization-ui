@@ -1,0 +1,74 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #4165A7;
+    margin-top: 40px;
+  }
+  .welcomtxt{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+.filter label{
+  padding: 10px 0;
+  font-size: 15px;
+}
+.header{
+  text-align: center;
+  margin: 30px 0 5px 0;
+}
+.btn-upload{
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #DC4405;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.filter {  
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+.select-box {
+  width: auto;
+  margin: 0 20px 0 0;
+}
+
+.select-box label, .select-box select {
+  display: block;
+}
+.filter select {
+  background: #f9f6f6;
+  border: 1px solid#dbd2d2;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 0 0 0 0;
+  max-width: 200px;
+  font-size: 14px;
+}
+.chart-content{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.before-chart{
+  width: 50%; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+svg {
+  position: absolute!important;
+  left: -660px!important;
+}

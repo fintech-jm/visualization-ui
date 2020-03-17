@@ -1,0 +1,122 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: #4165A7;
+    margin-top: 40px;
+  }
+  .welcomtxt{
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+.filter label{
+  padding: 10px 0;
+  font-size: 15px;
+}
+.header{
+  text-align: center;
+  margin: 30px 0 5px 0;
+}
+.btn-upload{
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #DC4405;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.filter {  
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center;
+}
+.select-box {
+  width: auto;
+  margin: 0 20px 0 0;
+}
+.text-box {
+  width: 100px;
+  margin: 0 10px 0 10px;
+  min-height: 22px;
+  background: #f9f6f6; 
+  border-radius: 5px; 
+}
+.select-box label, .select-box select {
+  display: block;
+}
+.filter select {
+  background: #f9f6f6;
+  border: 1px solid#dbd2d2;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 0 0 0 0;
+  max-width: 200px;
+  font-size: 14px;
+}
+#multiselectContainerReact{
+  max-width: 350px;
+}
+.chart-content{
+  width: 80%;
+  margin: 0 auto;
+}
+/* .chartjs-size-monitor{
+  position: "";
+} */
+
+.scroll-div{
+  overflow-x: auto!important;
+  overflow-y: hidden;
+}
+.chartjs-render-monitor{
+  /* width: 1000px!important; */
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+/* #heatmap-container #heatmap-container_svg #heatmap-container_Container_RectGroup rect{
+  width: 20%!important;
+} */
+
+#chart_wrapper {
+  overflow-x: scroll;
+  overflow-y: scroll;  
+}
+
+.chartjs-size-monitor-expand div, .chartjs-size-monitor-shrink div{
+    /* display: none; */
+}
+
+
+.chartWrapper {
+  position: relative;
+}
+
+.chartWrapper > canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events:none;
+}
+
+.chartAreaWrapper {
+  overflow-x: scroll;
+}
