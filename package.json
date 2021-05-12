@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "d3": "3.5.17",
     "multiselect-react-dropdown": "^1.4.7",
     "papaparse": "^5.1.1",
